@@ -4,7 +4,7 @@
 
 def welcome_assignment_answers(question):
     if question == "In Slack, what is the secret passphrase posted in the #lab-python-getting-started channel posted by a TA?":
-        answer = "PASTE_SLACK_PASSPHRASE_HERE"
+        answer = "PASTE_THE_REAL_SLACK_PASSPHRASE_HERE"
 
     elif question == "Are encoding and encryption the same? - Yes/No":
         answer = "No"
@@ -19,16 +19,16 @@ def welcome_assignment_answers(question):
         answer = "No"
 
     elif question == "What is the SHA256 hashing value of your NYU email and use the answer in your code - ":
-        answer = "PASTE_YOUR_SHA256_HASH_HERE"
+        answer = "c7696c59d37819f5f554778c99250667be8d2a57007e26b0a4986243c3c2c35b"
 
     elif question == "Is MD5 a secured hashing algorithm? - Yes/No":
         answer = "No"
 
     elif question == "What layer of the TCP/IP model does the protocol DNS belong to? - The answer should be an integer number":
-        answer = 4
+        answer = 5
 
     elif question == "What layer of the TCP/IP model does the protocol ICMP belong to? - The answer should be an integer number":
-        answer = 2
+        answer = 3
 
     else:
         answer = "This is not my beautiful wife! This is not my beautiful car! How did I get here?"
@@ -38,6 +38,9 @@ def welcome_assignment_answers(question):
 
 if __name__ == "__main__":
     # Use this space to debug and verify that the program works.
+
+    debug_question = "In Slack, what is the secret passphrase posted in the #lab-python-getting-started channel posted by a TA?"
+    print(welcome_assignment_answers(debug_question))
 
     debug_question = "Are encoding and encryption the same? - Yes/No"
     print(welcome_assignment_answers(debug_question))
@@ -49,6 +52,9 @@ if __name__ == "__main__":
     print(welcome_assignment_answers(debug_question))
 
     debug_question = "Is a hashed message supposed to be un-hashed? - Yes/No"
+    print(welcome_assignment_answers(debug_question))
+
+    debug_question = "What is the SHA256 hashing value of your NYU email and use the answer in your code - "
     print(welcome_assignment_answers(debug_question))
 
     debug_question = "Is MD5 a secured hashing algorithm? - Yes/No"
