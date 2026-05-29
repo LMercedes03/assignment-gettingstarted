@@ -4,7 +4,7 @@
 
 def welcome_assignment_answers(question):
     if question == "In Slack, what is the secret passphrase posted in the #lab-python-getting-started channel posted by a TA?":
-        answer = "PASTE_THE_REAL_SLACK_PASSPHRASE_HERE"
+        answer = "pcap"
 
     elif question == "Are encoding and encryption the same? - Yes/No":
         answer = "No"
